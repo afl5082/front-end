@@ -1,0 +1,14 @@
+<script>
+  (function() {
+    // Use events from https://developer.mozilla.org/en-US/docs/Web/Events
+    var eventName = 'mouseenter';
+    
+    // Attach listener directly to element or document if element not found
+    var el = document.querySelector('#map > div.leaflet-pane.leaflet-map-pane > div.leaflet-pane.leaflet-overlay-pane > svg > g') || document;
+    
+    // Leave useCapture to true if you want to avoid propagation issues.
+    var useCapture = true;
+    
+    el.addEventListener(eventName, {{JS - Mouseover}},useCapture);
+  })();
+</script>
