@@ -1,8 +1,0 @@
- 
-
-function () {
-  
-   country = google_tag_manager["GTM-NFF8XL"].dataLayer.get("gtm.element").attributes[0].nodeValue;
-   return country.match(/^.{0,3}/)[0];
-  
-}
