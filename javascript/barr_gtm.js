@@ -1,4 +1,4 @@
-// extracting author out of foundation blog posts, if author isn't present, return null
+// extracting author out of blog posts, if author isn't present, return null
 
 function() {
   
