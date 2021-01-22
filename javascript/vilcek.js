@@ -1,4 +1,5 @@
-// locating country on map click, hooking into Google Tag Manager click element, country named stored in the first nodeValue, extracting first three letters (USA,CAN..) via Regex match
+// locating country on map click, hooking into Google Tag Manager click element
+//country named stored in the first nodeValue, extracting first three letters (USA,CAN..) via Regex match
 
 function () {
   
